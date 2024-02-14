@@ -6,7 +6,7 @@ const SIMULATED_LATENCY = 150
 
 export const runtime = 'edge';
 
-export const preferredRegion = 'iad1'
+export const preferredRegion = 'gru1'
 
 const getTime = unstable_cache(
   getTimeFn(SIMULATED_LATENCY),
