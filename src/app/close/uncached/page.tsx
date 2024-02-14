@@ -2,6 +2,8 @@ import { getTimeFn } from "@/lib/utils";
 
 const SIMULATED_LATENCY = 25
 
+export const dynamic = 'force-dynamic';
+
 const getTime = getTimeFn(SIMULATED_LATENCY);
 
 export default async function Page() {
